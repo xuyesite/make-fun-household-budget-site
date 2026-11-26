@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Alvarez Ledger — a household budget that adds up</title>
+<meta name="description" content="The Alvarez family's household budget: income, spending, savings goals and a what-if planner. Every figure adds up; every control works.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e4d3a'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='%23faf5ec' font-family='Georgia,serif'%3E$%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">$</span>
+      <span class="brand-text"><strong>The Alvarez Ledger</strong><em>A household budget that adds up</em></span>
+    </a>
+    <div class="search-box">
+      <label class="visually-hidden" for="site-search">Search the budget</label>
+      <input type="search" id="site-search" placeholder="Search purchases, goals, categories…" autocomplete="off">
+      <ul id="search-results" class="search-results" hidden></ul>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Sections">
+    <a class="nav-link" data-route="overview" href="#/">Overview</a>
+    <a class="nav-link" data-route="income" href="#/income">Income</a>
+    <a class="nav-link" data-route="expenses" href="#/expenses">Expenses</a>
+    <a class="nav-link" data-route="categories" href="#/categories">Categories</a>
+    <a class="nav-link" data-route="goals" href="#/goals">Savings goals</a>
+    <a class="nav-link" data-route="planner" href="#/planner">Planner</a>
+    <a class="nav-link" data-route="methodology" href="#/methodology">Methodology</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page" id="overview" aria-label="Overview"></section>
+  <section class="page" id="income" aria-label="Income"></section>
+  <section class="page" id="expenses" aria-label="Expenses"></section>
+  <section class="page" id="categories" aria-label="Categories"></section>
+  <section class="page" id="goals" aria-label="Savings goals"></section>
+  <section class="page" id="planner" aria-label="Planner"></section>
+  <section class="page" id="methodology" aria-label="Methodology"></section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>The Alvarez Ledger</strong> — the budget of a fictional family of four in Maplewood. Every figure on this site is invented and every total is the sum of its parts; see <a href="#/methodology">Methodology</a> for how it is built.</p>
+  <p>Built for the make.fun bounty “Make the best household budget site”. The site is static files only — it works with no network connection, and anything you type into it stays on this page. Source on <a href="https://github.com/xuyesite/make-fun-household-budget-site">GitHub</a>.</p>
+</footer>
+</body>
+</html>
